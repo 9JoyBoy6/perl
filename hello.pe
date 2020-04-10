@@ -4,7 +4,7 @@ use warnings;
 my $nb = int (rand 101);
 my $essai = -1;
 
-print "Devine my nomber.\n";
+print "Devine my number.\n";
 
 until ($essai == $nb)
 {
