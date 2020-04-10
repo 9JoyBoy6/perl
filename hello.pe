@@ -11,11 +11,11 @@ until ($essai == $nb)
     print '> ';
     $essai = <>;
 
-    if ($essai < $nb_mystere)
+    if ($essai < $nb)
     {
         print "C'est plus.\n";
     }
-    elsif ($essai > $nb_mystere)
+    elsif ($essai > $nb)
     {
         print "C'est moins.\n";
     }
